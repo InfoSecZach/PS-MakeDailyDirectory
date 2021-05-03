@@ -1,0 +1,11 @@
+#Get date and format it to yyyyMMdd
+$date = Get-Date -UFormat "%Y%m%d"
+
+#Make directory named as formatted date
+mkdir C:\...\$date
+
+#Get directory listing
+$DTList = ls C:\...\DT
+ 
+#Export ls command on directory to show list of directories. Title csv with current date and save on Desktop. (This acts as the notification that it was completed successfully)
+$DTList | Export-Csv C:\...\Desktop\"$date.csv"
