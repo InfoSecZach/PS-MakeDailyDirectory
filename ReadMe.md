@@ -1,2 +1,2 @@
 # What is this?
-It’s just a simply PowerShell script to create a folder with the current date. After the directory is created it gets the directory listing of the hosting directory and exports it as a csv.
+It’s just a simple PowerShell script to create a folder with the current date. After the directory is created it gets the directory listing of the hosting directory and exports it as a csv.
